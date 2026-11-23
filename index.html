@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0077b6">
+  <meta name="description" content="Một góc nhỏ kể chuyện Khánh Hòa — xứ Trầm, biển Yến.">
+  <title>Khánh Hòa — Gửi bạn chút nắng gió xứ Trầm</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="top">
+    <img class="hero__image" src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=2400&q=90" alt="Mặt biển xanh trong dưới ánh bình minh, gợi nhắc vẻ đẹp vịnh biển Khánh Hòa" fetchpriority="high">
+    <div class="hero__shade"></div>
+    <nav class="topbar" aria-label="Điều hướng chính">
+      <a class="brand" href="#top"><span class="brand__mark">KH</span><span>KHÁNH HÒA<small>XỨ TRẦM, BIỂN YẾN</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+      <div class="topbar__links" id="navLinks">
+        <a href="#diem-den">Những miền thương</a><a href="#hanh-trinh">Hành trình</a><a href="#loi-nhan">Lời nhắn</a>
+      </div>
+    </nav>
+    <div class="hero__content">
+      <p class="eyebrow">MỘT LỜI THƯƠNG GỬI TỪ MIỀN BIỂN</p>
+      <h1>Khánh Hòa — nơi<br><em>bình minh chạm ngõ</em></h1>
+      <p class="hero__intro">Mình gửi bạn chút nắng, chút gió và những câu chuyện rất đỗi bình dị của quê hương — nơi biển xanh ôm lấy núi, nơi mỗi cung đường đều có một điều đáng nhớ.</p>
+      <a class="text-link text-link--light" href="#diem-den">Cùng mình dạo một vòng <span>↓</span></a>
+    </div>
+    <div class="hero__note">12°N — MIỀN DUYÊN HẢI NAM TRUNG BỘ</div>
+  </header>
+
+  <main>
+    <section class="intro section-wrap">
+      <div class="intro__label">LỜI NGỎ <span>01 / 04</span></div>
+      <div class="intro__body">
+        <h2>Có những nơi, chỉ cần nhắc tên<br>là đã nghe mùi <em>gió mặn.</em></h2>
+        <p>Với mình, Khánh Hòa không chỉ có những bãi biển xanh trong trên bưu ảnh. Quê mình còn có tiếng sóng vỗ vào ghềnh đá, mùi khói bếp ở làng chài, những mái tháp Chăm trầm mặc và con đường đèo đưa ta đi qua mây núi.</p>
+        <p>Trang nhỏ này không bán điều gì cả. Mình chỉ muốn gom nhặt những miền cảnh sắc thân quen, kể lại bằng góc nhìn của một người luôn thấy may mắn vì được lớn lên bên vùng đất này.</p>
+      </div>
+    </section>
+
+    <section class="places-section" id="diem-den">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow eyebrow--blue">NHỮNG MIỀN THƯƠNG</p><h2>24 lát cắt của <em>Khánh Hòa</em></h2></div>
+          <p class="section-heading__desc">Từ mũi đất đón mặt trời đầu tiên đến những cánh rừng xanh thẳm phía Tây. Mỗi nơi có một nhịp thở riêng.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Lọc địa điểm theo khu vực">
+          <button class="filter is-active" data-filter="all">Tất cả <b>24</b></button>
+          <button class="filter" data-filter="north">Phía Bắc <b>6</b></button>
+          <button class="filter" data-filter="center">Trung tâm <b>9</b></button>
+          <button class="filter" data-filter="south">Phía Nam <b>6</b></button>
+          <button class="filter" data-filter="west">Miền núi phía Tây <b>3</b></button>
+        </div>
+        <div class="places-grid" id="placesGrid" aria-live="polite"></div>
+        <p class="grid-note">Chọn một địa điểm để đọc câu chuyện và góc nhìn của người bản địa.</p>
+      </div>
+    </section>
+
+    <section class="journey-section" id="hanh-trinh">
+      <div class="section-wrap">
+        <p class="eyebrow eyebrow--sun">BẢN ĐỒ HÀNH TRÌNH CẢM XÚC</p>
+        <div class="journey-heading"><h2>Một dải đất,<br><em>muôn dáng hình.</em></h2><p>Đi từ Bắc vào Nam, rồi ngược lên phía Tây — Khánh Hòa thay đổi cảnh sắc theo từng khúc quanh. Hãy chạm vào từng chặng để xem miền đất ấy có gì.</p></div>
+        <div class="journey-layout">
+          <div class="journey-art" aria-label="Minh họa hành trình từ biển lên núi ở Khánh Hòa">
+            <svg viewBox="0 0 520 560" role="img" aria-labelledby="journeyTitle">
+              <title id="journeyTitle">Đường nét minh họa hành trình dọc Khánh Hòa</title>
+              <path class="land-shape" d="M180 18 C230 55 205 95 260 130 S235 210 300 245 S260 330 320 370 S300 450 355 530 L485 530 C430 445 470 390 410 330 S450 240 380 190 S420 100 330 65 S280 20 180 18Z"/>
+              <path class="route-line" d="M255 42 C210 105 300 120 278 180 S340 245 305 300 S360 390 340 450 S390 490 405 520"/>
+              <g class="route-dot"><circle cx="255" cy="42" r="9"/><circle cx="278" cy="180" r="9"/><circle cx="305" cy="300" r="9"/><circle cx="340" cy="450" r="9"/><circle cx="405" cy="520" r="9"/></g>
+              <g class="route-label"><text x="30" y="48">BẮC</text><text x="30" y="186">VỊNH BIỂN</text><text x="30" y="306">NHA TRANG</text><text x="30" y="456">CAM RANH</text><text x="30" y="526">PHÍA TÂY</text></g>
+              <path class="sea-wave" d="M18 90 Q50 78 82 90 T146 90 M18 110 Q50 98 82 110 T146 110 M18 130 Q50 118 82 130 T146 130"/>
+            </svg>
+            <span class="map-caption">Minh họa địa hình, không dùng để định vị hoặc dẫn đường.</span>
+          </div>
+          <div class="journey-stops" id="journeyStops">
+            <button class="journey-stop is-selected" data-region="north"><span>01</span><div><b>Miền Bắc — nơi biển mở lối</b><small>Vạn Ninh · Ninh Hòa</small></div><i>↗</i></button>
+            <button class="journey-stop" data-region="center"><span>02</span><div><b>Trung tâm — nhịp sống bên vịnh</b><small>Nha Trang và những hòn đảo</small></div><i>↗</i></button>
+            <button class="journey-stop" data-region="south"><span>03</span><div><b>Miền Nam — nắng gió dịu dàng</b><small>Cam Lâm · Cam Ranh</small></div><i>↗</i></button>
+            <button class="journey-stop" data-region="west"><span>04</span><div><b>Phía Tây — xanh thẳm đại ngàn</b><small>Khánh Vĩnh · Khánh Sơn</small></div><i>↗</i></button>
+            <p class="journey-detail" id="journeyDetail">Phía Bắc là nơi những dải cát dài, vịnh nhỏ và làng chài nép mình bên chân núi mở đầu câu chuyện.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-wrap" id="loi-nhan">
+      <div class="closing__image"><img src="https://images.unsplash.com/photo-1473116763249-2fb01ab7cc?auto=format&fit=crop&w=1200&q=85" alt="Ánh nắng cuối ngày trên mặt biển yên ả" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=85'"></div>
+      <div class="closing__copy"><p class="eyebrow eyebrow--blue">LỜI NHẮN TỪ NGƯỜI CON XỨ BIỂN</p><h2>Đi xa rồi,<br>vẫn nhớ <em>mùi gió quê nhà.</em></h2><p>Cảm ơn bạn đã dành chút thời gian dạo qua Khánh Hòa cùng mình. Nếu một ngày có dịp ghé thăm, mong bạn đi thật chậm, lắng nghe tiếng sóng và để vùng đất này kể câu chuyện của riêng nó.</p><p class="signature">Thân mến,<br><strong>Một người thương Khánh Hòa</strong></p></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand brand--footer" href="#top"><span class="brand__mark">KH</span><span>KHÁNH HÒA<small>XỨ TRẦM, BIỂN YẾN</small></span></a><p>Một dự án cá nhân, phi thương mại — làm bằng tình yêu dành cho quê hương.</p><a href="#top" class="back-top">Lên đầu trang ↑</a><small class="copyright">© 2026 · Nội dung mang tính chia sẻ văn hóa và cảm nhận cá nhân.</small></footer>
+
+  <div class="reader" id="reader" aria-hidden="true">
+    <div class="reader__backdrop" data-close></div>
+    <article class="reader__panel" role="dialog" aria-modal="true" aria-labelledby="readerTitle">
+      <button class="reader__close" id="readerClose" aria-label="Đóng bài viết">×</button>
+      <div class="reader__cover"><img id="readerImage" src="" alt=""></div>
+      <div class="reader__content">
+        <p class="eyebrow eyebrow--blue" id="readerRegion"></p>
+        <h2 id="readerTitle"></h2>
+        <p class="reader__lead" id="readerExcerpt"></p>
+        <div class="reader__body" id="readerBody"></div>
+        <aside class="local-note"><span>GÓC NHÌN NGƯỜI BẢN ĐỊA</span><p id="readerLocal"></p></aside>
+        <div class="reader__nav"><button id="prevPlace">← Địa điểm trước</button><span id="readerCount"></span><button id="nextPlace">Địa điểm tiếp →</button></div>
+      </div>
+    </article>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
